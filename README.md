@@ -1,12 +1,17 @@
-# React + Vite
+Instructions
+Créez les composants suivants :
+Carte de cinéma
+Liste de films
+Filtre (titre, taux)
+Chaque film doit avoir les attributs suivants : titre, description, URL de l'affiche, note
+L'utilisateur doit être :
+Possibilité d'ajouter un nouveau film.
+Filtrer les films par titre/note.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+le composant principal App qui se présente avec les composants et l'option de routage avec react-dom-router : 
+Navbar contient : le logo la liste de navigation et d'une barre de recherche,
+Home contient : le composant Hero, Filter, AddMovieCard, MovieList,
+WatchPage pour ouvrir la page pour regarder le film avec le titre la video complète et la descrption, 
+SearchPage est pour la recherche de film,
+Footer qui est le pied de page
+et d'autre composant comme Movicard pour chaqu card qui est map par notre JSON Movies dans MovieList et About Contact ReadMovies AddMovieWatchPage
