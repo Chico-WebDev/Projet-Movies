@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import AddMovie from "../components/AddMovie";
-import Hero from "../components/hero";
+import Hero from "../components/Hero";
 import MovieList from "../components/MovieList";
 import { useState } from "react";
 import AddMovieCard from "../components/AddMovieCard";
