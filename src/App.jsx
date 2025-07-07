@@ -5,10 +5,10 @@ import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
 import Footer from './components/Footer';
 import Movies from './data/Movies';
-import NotFound from './Pages/NotFound';
 import WatchPage from './data/ReadMovies';
 import SearchPage from './components/SearchPage';
 import AddMovieWatchPage from './components/AddMovieWatchPage';
+import NotFound from './Pages/NotFound';
 
 function App () {
 const [movies, setMovies] = useState(Movies);
